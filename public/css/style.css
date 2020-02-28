@@ -1,0 +1,38 @@
+
+.navbar
+{
+	padding: 20px 0;
+}
+.navbar-brand
+{
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #262626;
+}
+.nav-item
+{
+	font-weight: 800;
+	text-transform: uppercase;
+	float: right;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link
+{
+	background:#262626;
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+	color: #262626;
+	padding: 5px 15px;	
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
